@@ -32,5 +32,15 @@ namespace ColorSpheres
         {
             return timesThrown;
         }
+
+        public Color GetColor()
+        {
+            return color;
+        }
+
+        public bool IsPopped()
+        {
+            return radius==0;
+        }
     }
 }
