@@ -40,7 +40,7 @@ namespace ColorSpheres
 
         public byte GetGreen()
         {
-            return red;
+            return green;
         }
 
         public void SetGreen(byte green)
