@@ -11,9 +11,9 @@ namespace ColorSpheres
 
             for (int i = 0; i < spheres.Length; i++)
             {
-                byte red = (byte)rand.Next(256);
-                byte green = (byte)rand.Next(256);
-                byte blue = (byte)rand.Next(256);
+                byte red = (byte)rand.Next(byte.MaxValue+1);
+                byte green = (byte)rand.Next(byte.MaxValue+1);
+                byte blue = (byte)rand.Next(byte.MaxValue+1);
                 
                 Color color = new Color(red,green,blue);
                 spheres[i] = new Sphere(color, rand.Next());
