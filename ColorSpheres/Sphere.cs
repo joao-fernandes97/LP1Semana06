@@ -7,7 +7,7 @@ namespace ColorSpheres
 {
     public class Sphere
     {
-        private Color color;
+        private readonly Color color;
         private int radius;
         private int timesThrown;
 

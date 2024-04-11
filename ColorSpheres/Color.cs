@@ -7,10 +7,10 @@ namespace ColorSpheres
 {
     public class Color
     {
-        private byte red;
-        private byte green;
-        private byte blue;
-        private byte alpha;
+        private readonly byte red;
+        private readonly byte green;
+        private readonly byte blue;
+        private readonly byte alpha;
 
         public Color(byte red, byte green, byte blue, byte alpha)
         {
@@ -33,19 +33,9 @@ namespace ColorSpheres
             return red;
         }
 
-        public void SetRed(byte red)
-        {
-            this.red = red;
-        }
-
         public byte GetGreen()
         {
             return green;
-        }
-
-        public void SetGreen(byte green)
-        {
-            this.green = green;
         }
 
         public byte GetBlue()
@@ -53,19 +43,9 @@ namespace ColorSpheres
             return blue;
         }
 
-        public void SetBlue(byte blue)
-        {
-            this.blue = blue;
-        }
-
         public byte GetAlpha()
         {
             return alpha;
-        }
-
-        public void SetAlpha(byte alpha)
-        {
-            this.alpha = alpha;
         }
 
         public byte GetGrey()
