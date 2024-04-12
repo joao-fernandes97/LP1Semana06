@@ -23,7 +23,7 @@ namespace PlayerStats
             {
                 if(playedGames>0)
                 {
-                    return playedGames/wonGames;
+                    return (float)wonGames/playedGames;
                 }else
                 {
                     return 0;
