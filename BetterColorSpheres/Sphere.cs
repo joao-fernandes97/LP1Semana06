@@ -6,9 +6,9 @@ namespace BetterColorSpheres
     {
         public Color Color {get;}
         private int radius;
-        public int Radius {get;}
+        public int Radius {get => radius;}
         private int timesThrown;
-        public int TimesThrown {get;}
+        public int TimesThrown {get => timesThrown;}
         
 
         public Sphere(Color color, int radius)
